@@ -1,5 +1,62 @@
-/* ===== PART 4 (Abanoub Farag): Background gradient color ===== */
-html{
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    background-attachment: fixed;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f5f3f2;
+  font-family: sans-serif;
 }
+
+/* ===== General ====== */
+nav {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #000;
+  padding: 15px;
+  background-color: #f5f3f2;
+}
+
+nav li,
+nav a,
+nav div {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+/* ===== Nav ===== */
+
+nav a {
+  margin-right: 12px;
+}
+
+.nav-left {
+  width: 15%;
+  /* background-color: rebeccapurple; */
+}
+
+.nav-center {
+  width: 60%;
+  /* background-color: red; */
+}
+
+.nav-right {
+  width: 20%;
+  /* background-color: yellow; */
+}
+
+.nav-right a {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sign {
+  background-color: #e4e0dd;
+}
+
+.book {
+  color: #f5f3f2;
+  background-color: #fb4f1f;
+}
+
+/* ===== FORM ===== */

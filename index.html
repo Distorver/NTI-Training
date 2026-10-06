@@ -3,16 +3,49 @@
   <head>
     <title>Feedback Form</title>
     <meta charset="UTF-8" />
-    <meta name="description" content="This is feedback form you can integrate it with your website">
-    <link rel="stylesheet" href="style.css">
+    <meta
+      name="description"
+      content="This is feedback form you can integrate it with your website"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- ===== NAV ===== -->
+    <nav>
+      <div class="nav-left">
+        <h2>Weave</h2>
+      </div>
+
+      <div class="nav-center">
+        <ul>
+          <li><a href="#">Platform</a></li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Company</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <li><a class="sign" href="#">Sign in</a></li>
+        <li><a class="book" href="#">Book a Demo</a></li>
+      </div>
+    </nav>
+    <!-- ===== END OF NAV ===== -->
+
     <h1>Feedback Form</h1>
 
-    <img src="https://i.pinimg.com/1200x/89/d9/d1/89d9d1ff5c81a6646182d26010b7d48a.jpg" alt="image not found" width="600px">
-    <br/>
-    <a href="https://github.com/Distorver/NTI-Training" target="_blank">Github</a>
-    <br/><br/>
+    <img
+      src="https://i.pinimg.com/1200x/89/d9/d1/89d9d1ff5c81a6646182d26010b7d48a.jpg"
+      alt="image not found"
+      width="600px"
+    />
+    <br />
+    <a href="https://github.com/Distorver/NTI-Training" target="_blank"
+      >Github</a
+    >
+    <br /><br />
 
     <form>
       <!-- ===== PART 1 (Alaa Mostafa): Personal information ===== -->
@@ -22,60 +55,78 @@
       <label for="name">Name:</label>
 
       <!-- Username input -->
-      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
 
-      <br/><br/>
+      <br /><br />
 
       <!-- Label + input for the user's email -->
-      
+
       <!-- Email -->
       <label for="email">Email:</label>
 
       <!-- Email input -->
-      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
 
+      <br /><br />
 
-      <br/><br/>
+      <!-- ===== END OF PART 1 ===== -->
 
+      <!----------------- ===== PART 2 (Mostafa Ahmed): The feedback itself ===== --------------------->
 
-     <!-- ===== END OF PART 1 ===== -->
-
-      
-       <!----------------- ===== PART 2 (Mostafa Ahmed): The feedback itself ===== --------------------->
-
-       <!----------------- Label + input for the subject of the feedback ------------------------------->
+      <!----------------- Label + input for the subject of the feedback ------------------------------->
       <label for="subject">Subject</label>
 
-      <input type="text" name="subject" id="subject" placeholder="Enter the subject of your feedback" required />
-      
-      <br/><br/>
+      <input
+        type="text"
+        name="subject"
+        id="subject"
+        placeholder="Enter the subject of your feedback"
+        required
+      />
 
-        <!----------------- Label + textarea for the full message ---------------------------------------->
+      <br /><br />
+
+      <!----------------- Label + textarea for the full message ---------------------------------------->
 
       <!-- Label + textarea for the full message -->
       <label for="message">Message</label>
-      <br>
-      <textarea name="message" id="message" placeholder="Enter your feedback here" required> </textarea>
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Enter your feedback here"
+        required
+      >
+      </textarea>
 
-      
-      <br/><br/>
+      <br /><br />
 
       <!------------------- ===== END OF PART 2 ===== -------------------------------------------------->
-
 
       <!-- ===== PART 3 (Ali Ayman): Rating, confirmation and buttons ===== -->
       <!-- Label + number input for a rating from 1 to 5 -->
 
       <label for="rating">Rating (1-5):</label>
-      <input type="number" name="rating" id="rating" min="1" max="5"/>
-      <br/><br/>
+      <input type="number" name="rating" id="rating" min="1" max="5" />
+      <br /><br />
 
       <!-- Checkbox to confirm the information is correct -->
 
-      <input type="checkbox" name="check" id="check">
+      <input type="checkbox" name="check" id="check" />
       <label for="check">I confirm the information is correct</label>
-      <br/><br/>
-
+      <br /><br />
 
       <!-- Submit button sends the form, reset button clears it -->
 
