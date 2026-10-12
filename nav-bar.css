@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: aliceblue;
+
+}
+li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.nav-bar{
+    background: black;
+    font-size: 20;
+    color: white;
+}
+
+.nav-bar-left{
+    width: 29%;
+    display: inline-block;
+}
+
+.nav-bar-center{
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-bar-right-parent{
+    width: 29%;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.nav-bar-right{
+    width: 50%;
+    margin-left: auto;
+}
